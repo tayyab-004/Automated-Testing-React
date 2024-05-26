@@ -35,4 +35,64 @@ Frameworks like Vitest and Testing Library are invaluable for automated testing 
 - **Vitest Framework:** Offers a comprehensive suite of testing utilities tailored for React, making it easier to write and maintain tests.
 - **Testing Library:** Provides a user-centric testing approach, focusing on simulating user interactions and behaviors for more realistic tests.
 
+## Getting Started
+
+Follow these steps to set up and run Automated Testing for React Projects on your local machine:
+
+1. **Clone the repository:**
+
+   ```
+   git clone https://github.com/tayyab-004/Automated-Testing-React.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```
+   cd Automated-Testing-React
+   ```
+
+3. **Navigate to the desired project:**
+
+   For basic automated testing:
+
+   ```
+   cd basic-automated-testing-react
+   ```
+
+   OR
+
+   For advanced automated testing:
+
+   ```
+   cd advance-automated-testing-react
+   ```
+
+4. **Install dependencies:**
+
+   ```
+   npm install
+   ```
+
+5. **Start the development server:**
+
+   ```
+   npm run dev
+   ```
+
+6. **To run tests:**
+
+   For automated tests using Jest:
+
+   ```
+   npm test
+   ```
+
+   OR
+
+   Using npx Jest:
+
+   ```
+   npx jest
+   ```
+
 Happy coding! ☕
