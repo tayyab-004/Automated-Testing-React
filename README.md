@@ -10,7 +10,7 @@ Automated testing is essential for modern software development practices. It hel
 - **Consistent Code Quality:** Ensuring that code meets quality standards across different iterations and team members.
 - **Regression Testing:** Automating repetitive tests to check for regressions and ensure new changes don't break existing functionalities.
 
-![Testing Basic](./basic-automated-testing-react/src/assets/testing-basic.png)
+![Testing Basic](./advance-automated-testing-react/src/assets/testing-advance.png)
 
 ## Comparison with Other Testing Types 🛠️
 
@@ -35,7 +35,7 @@ Frameworks like Vitest and Testing Library are invaluable for automated testing 
 - **Vitest Framework:** Offers a comprehensive suite of testing utilities tailored for React, making it easier to write and maintain tests.
 - **Testing Library:** Provides a user-centric testing approach, focusing on simulating user interactions and behaviors for more realistic tests.
 
-## Getting Started
+## Getting Started for basic react testing
 
 Follow these steps to set up and run Automated Testing for React Projects on your local machine:
 
@@ -57,14 +57,6 @@ Follow these steps to set up and run Automated Testing for React Projects on you
 
    ```
    cd basic-automated-testing-react
-   ```
-
-   OR
-
-   For advanced automated testing:
-
-   ```
-   cd advance-automated-testing-react
    ```
 
 4. **Install dependencies:**
@@ -93,6 +85,54 @@ Follow these steps to set up and run Automated Testing for React Projects on you
 
    ```
    npx jest
+   ```
+
+## Getting Started for advance react testing
+
+Follow these steps to set up and run Automated Testing for React Projects on your local machine:
+
+1. **Clone the repository:**
+
+   ```
+   git clone https://github.com/tayyab-004/Automated-Testing-React.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```
+   cd Automated-Testing-React
+   ```
+
+3. **Navigate to the desired project:**
+
+   For basic automated testing:
+
+   ```
+   cd advance-automated-testing-react
+   ```
+4. Create a .env.local File:
+
+   In the root directory of the project, you'll find a sample .env file. Make a copy and save it as .env.local.
+   Replace the Auth0 Domain and Client ID with the actual values you obtained from Auth0.
+
+5. **Install dependencies:**
+
+   ```
+   npm install
+   ```
+
+6. **Start the development server:**
+
+   ```
+   npm start
+   ```
+
+7. **To run tests:**
+
+   For automated tests using Jest:
+
+   ```
+   npm run test:ui
    ```
 
 Happy coding! ☕
